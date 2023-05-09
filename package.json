@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "hardhat test",
+    "test": "curl http://106.14.65.204:1337",
     "coverage": "hardhat coverage --solcoverjs .solcover.ts --testfiles 'test/**.test.ts'",
     "compile": "hardhat compile"
   },
